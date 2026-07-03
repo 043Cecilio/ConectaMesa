@@ -1,0 +1,18 @@
+# Compilados do Java
+target/
+*.class
+
+# Configurações do VS Code e da IDE
+.settings/
+.id/
+.project/
+.classpath/
+.factorypath
+.vscode/
+
+# Arquivos do sistema
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
