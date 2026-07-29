@@ -17,7 +17,7 @@
 
 ---
 
-## 📌 Sobre o Projeto
+## Sobre o Projeto
 
 **ConectaMesa** é uma plataforma Full Stack com arquitetura desacoplada que atua como ponte entre **doadores de alimentos** — mercados, restaurantes e estabelecimentos comerciais — e **ONGs** cadastradas, otimizando a logística de doações e combatendo, simultaneamente, o desperdício alimentar e a insegurança alimentar.
 
@@ -116,7 +116,7 @@ O frontend consome diretamente a API REST do backend Java, com CORS liberado esp
 
 ---
 
-## ▶️ Como Executar Localmente
+## Como Executar Localmente
 
 Siga os passos abaixo para rodar o projeto completo em ambiente de desenvolvimento.
 
