@@ -34,7 +34,7 @@ O projeto adota uma **arquitetura multirepo** com os dois serviços organizados 
 ```
 conectamesa/
 │
-├── api/                          # 🔵 Back-end — Java 17 + Spring Boot 3
+├── api/                          # Back-end — Java 17 + Spring Boot 3
 │   ├── src/
 │   │   └── main/
 │   │       ├── java/com/conectamesa/
@@ -47,7 +47,7 @@ conectamesa/
 │   │           └── application.properties   # Config de BD e CORS
 │   └── pom.xml
 │
-└── web/                          # 🟠 Front-end — React + Vite + TypeScript
+└── web/                          # Front-end — React + Vite + TypeScript
     ├── src/
     │   ├── components/           # Componentes reutilizáveis
     │   ├── pages/                # Login, Feed, Cadastro
