@@ -67,24 +67,24 @@ conectamesa/
 
 | Funcionalidade | Status |
 |---|---|
-| Modelagem relacional (users, donors, ngos, addresses, donations) | ✅ Concluído |
-| Cadastro composto transacional (User + Address + Perfil) | ✅ Concluído |
-| DTOs com Jakarta Bean Validation (e-mail, senha, CNPJ) | ✅ Concluído |
-| Endpoints RESTful (GET /donations) com CORS configurado | ✅ Concluído |
-| Autenticação JWT + Spring Security | 🔄 Em desenvolvimento |
-| Deploy em nuvem + CI/CD via GitHub Actions | 🔄 Em desenvolvimento |
+| Modelagem relacional (users, donors, ngos, addresses, donations) |  Concluído |
+| Cadastro composto transacional (User + Address + Perfil) |  Concluído |
+| DTOs com Jakarta Bean Validation (e-mail, senha, CNPJ) |  Concluído |
+| Endpoints RESTful (GET /donations) com CORS configurado |  Concluído |
+| Autenticação JWT + Spring Security |  Em desenvolvimento |
+| Deploy em nuvem + CI/CD via GitHub Actions |  Em desenvolvimento |
 
 ### Front-end — React + Vite + TypeScript
 
 | Funcionalidade | Status |
 |---|---|
-| Configuração do ambiente Vite + TypeScript | ✅ Concluído |
-| Feed dinâmico consumindo API Java via fetch (useEffect + useState) | ✅ Concluído |
-| Tela de Login com identidade visual dual (Doador / ONG) | ✅ Concluído |
-| Inputs controlados com ícones via lucide-react | ✅ Concluído |
-| Formulário de Cadastro em Etapas (Multi-step Form — 3 passos) | 🔄 Em desenvolvimento |
-| Integração do formulário de cadastro com endpoints POST | 🔄 Em desenvolvimento |
-| Tela de Criação de Doações (exclusiva para Doadores) | 🔄 Em desenvolvimento |
+| Configuração do ambiente Vite + TypeScript |  Concluído |
+| Feed dinâmico consumindo API Java via fetch (useEffect + useState) |  Concluído |
+| Tela de Login com identidade visual dual (Doador / ONG) |  Concluído |
+| Inputs controlados com ícones via lucide-react |  Concluído |
+| Formulário de Cadastro em Etapas (Multi-step Form — 3 passos) |  Em desenvolvimento |
+| Integração do formulário de cadastro com endpoints POST |  Em desenvolvimento |
+| Tela de Criação de Doações (exclusiva para Doadores) |  Em desenvolvimento |
 
 ---
 
@@ -104,9 +104,9 @@ O frontend consome diretamente a API REST do backend Java, com CORS liberado esp
 ## Roadmap
 
 ```
-[✅] Modelagem de BD e arquitetura de cadastro composto
-[✅] Endpoints RESTful + CORS + Feed dinâmico no Frontend
-[✅] Tela de Login com identidade visual dual e inputs controlados
+[X] Modelagem de BD e arquitetura de cadastro composto
+[X] Endpoints RESTful + CORS + Feed dinâmico no Frontend
+[X] Tela de Login com identidade visual dual e inputs controlados
 [ ] Multi-step Form de Cadastro (3 etapas — dados, CNPJ, endereço)
 [ ] Integração POST: React → Spring Boot
 [ ] Autenticação JWT + Spring Security + Rotas protegidas
